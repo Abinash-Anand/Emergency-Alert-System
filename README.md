@@ -1,4 +1,4 @@
-# 🌍 RapidReach - Emergency Reporting & Response Platform
+# 🌍 EAS - Emergency Reporting & Response Platform
 
 ## 💡 Project Overview
 
