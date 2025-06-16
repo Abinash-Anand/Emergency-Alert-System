@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Simple route for testing
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to RapidReach API" });
+  res.json({ message: "Welcome to EMS API" });
 });
 
 // Auth routes (public)

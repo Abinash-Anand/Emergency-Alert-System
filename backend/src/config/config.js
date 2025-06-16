@@ -4,7 +4,7 @@ require("dotenv").config();
 module.exports = {
   port: process.env.PORT || 3000,
   nodeEnv: process.env.NODE_ENV || "development",
-  mongoURI: process.env.MONGODB_URI,
+  mongoURI: process.env.MONGODB_URI || 'mongodb://localhost:27017/ems',
   jwtSecret:
     process.env.JWT_SECRET || "your-default-secret-key-for-development",
   mapbox: {
