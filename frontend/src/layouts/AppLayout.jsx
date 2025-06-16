@@ -68,7 +68,7 @@ const AppLayout = () => {
       <header className="border-b border-border bg-background">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center">
-            <h1 className="text-xl font-bold text-primary">RapidReach</h1>
+            <h1 className="text-xl font-bold text-primary">EMS</h1>
           </div>
           
           <div className="flex items-center space-x-2 md:hidden">
@@ -197,7 +197,7 @@ const AppLayout = () => {
       {/* Footer */}
       <footer className="border-t border-border bg-background py-4">
         <div className="container mx-auto px-4 text-center text-muted-foreground text-sm">
-          &copy; {new Date().getFullYear()} RapidReach. All rights reserved.
+          &copy; {new Date().getFullYear()} EMS. All rights reserved.
         </div>
       </footer>
     </div>

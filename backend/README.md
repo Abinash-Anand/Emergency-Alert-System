@@ -1,8 +1,10 @@
-# 📂 Backend - RapidReach
+# 📂 Backend - EMS
 
 ## Overview
-This is the backend for **RapidReach**, a real-time emergency assistance system.  
+
+This is the backend for **EMS**, a real-time emergency assistance system.  
 It provides:
+
 - User Authentication
 - Emergency Reporting & Management
 - Notification System
@@ -55,16 +57,19 @@ backend/
 ## ⚙️ Installation
 
 1. Go to the `backend/` folder:
+
    ```bash
    cd backend
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Create a `.env` file:
+
    ```
    PORT=5000
    MONGO_URI=your_mongodb_connection_string
@@ -82,18 +87,19 @@ backend/
 
 ## 🚀 APIs Overview
 
-| Method | Endpoint | Description |
-|:------:|:--------:|:-----------:|
-| POST | `/api/auth/register` | Register a new user |
-| POST | `/api/auth/login` | Login user |
-| GET  | `/api/emergencies/nearby` | Fetch nearby emergencies |
-| POST | `/api/emergencies/report` | Report new emergency |
-| POST | `/api/emergencies/respond` | Respond to an emergency |
-| GET  | `/api/notifications/` | Get user notifications |
+| Method |          Endpoint          |       Description        |
+| :----: | :------------------------: | :----------------------: |
+|  POST  |    `/api/auth/register`    |   Register a new user    |
+|  POST  |     `/api/auth/login`      |        Login user        |
+|  GET   | `/api/emergencies/nearby`  | Fetch nearby emergencies |
+|  POST  | `/api/emergencies/report`  |   Report new emergency   |
+|  POST  | `/api/emergencies/respond` | Respond to an emergency  |
+|  GET   |   `/api/notifications/`    |  Get user notifications  |
 
 ---
 
 ## 🔥 Key Features
+
 - JWT Authentication 🔑
 - MongoDB database connection 🛢️
 - REST APIs for Emergencies, Users, Notifications 📩
@@ -103,6 +109,7 @@ backend/
 ---
 
 ## 👥 Tech Stack
+
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
@@ -113,6 +120,7 @@ backend/
 ---
 
 # ✨ Final Notes:
+
 - Make sure your backend (`localhost:5000`) and frontend (`localhost:5173`) are both running.
 - Mapbox API key is required for location-related features.
 - MongoDB Atlas or local MongoDB setup is required for database.

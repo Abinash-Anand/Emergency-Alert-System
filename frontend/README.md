@@ -1,4 +1,4 @@
-# 🚀 RapidReach Frontend
+# 🚀 EMS Frontend
 
 ## 📂 Project Structure
 
@@ -40,7 +40,7 @@ frontend/
 
 ## 📜 Project Overview
 
-RapidReach Frontend is the user-facing client application of the RapidReach emergency management system.  
+EMS Frontend is the user-facing client application of the EMS emergency management system.  
 It allows users to **report emergencies**, **view nearby incidents**, **send SOS alerts**, and **respond to emergencies**.
 
 ---
@@ -66,7 +66,7 @@ It allows users to **report emergencies**, **view nearby incidents**, **send SOS
 - **Maps & Location:** Mapbox GL JS
 - **API Communication:** Axios
 - **Styling:** Tailwind CSS (light customizations)
-- **Other Libraries:** 
+- **Other Libraries:**
   - Lucide React Icons
   - Voice Recognition (Web Speech API)
 
@@ -101,15 +101,15 @@ npm run dev
 
 ## 📚 Folder Highlights
 
-| Folder/File | Purpose |
-|-------------|---------|
-| `components/` | Reusable React components like Map, Toasts, Notifications |
-| `layouts/` | Page layouts for authenticated vs unauthenticated users |
-| `pages/` | Major screens - Dashboard, Emergency Details, Reporting, etc |
-| `redux/` | Redux slices and services for state management |
-| `App.jsx` | Main router and component structure |
-| `MapComponent.jsx` | Handles maps, markers, SOS buttons, real-time tracking |
-| `AudioAssistantBot.jsx` | Voice-based reporting assistant |
+| Folder/File             | Purpose                                                      |
+| ----------------------- | ------------------------------------------------------------ |
+| `components/`           | Reusable React components like Map, Toasts, Notifications    |
+| `layouts/`              | Page layouts for authenticated vs unauthenticated users      |
+| `pages/`                | Major screens - Dashboard, Emergency Details, Reporting, etc |
+| `redux/`                | Redux slices and services for state management               |
+| `App.jsx`               | Main router and component structure                          |
+| `MapComponent.jsx`      | Handles maps, markers, SOS buttons, real-time tracking       |
+| `AudioAssistantBot.jsx` | Voice-based reporting assistant                              |
 
 ---
 

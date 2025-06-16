@@ -1,4 +1,4 @@
-# 🌍 RapidReach - Emergency Reporting & Response Platform
+# 🌍 EMS - Emergency Reporting & Response Platform
 
 ## 💡 Project Overview
 
@@ -53,11 +53,6 @@ It combines geolocation services, SOS alerts, live emergency tracking, and AI vo
 
 1. **Clone the repository:**
 
-```bash
-git clone <your-repo-link>
-cd rapid-reach-frontend
-```
-
 2. **Install dependencies:**
 
 ```bash
@@ -92,7 +87,7 @@ npm run dev
 
 ## 💡 Why We Built It
 
-Emergencies require speed, clarity, and accessibility. RapidReach ensures that:
+Emergencies require speed, clarity, and accessibility. EMS ensures that:
 
 - **Anyone** can report an emergency in seconds.
 - **First responders** get live, detailed updates.
