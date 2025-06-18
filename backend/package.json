@@ -8,9 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Abinash Anand",
   "license": "ISC",
-  "description": "",
+  "description": "A real-time Emergency Management System (EMS) that allows users to report emergencies, send SOS alerts, track incidents on a live map, and respond effectively using geolocation and voice-assisted reporting.",
   "dependencies": {
     "aws-sdk": "^2.1692.0",
     "axios": "^1.9.0",
