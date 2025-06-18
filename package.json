@@ -1,7 +1,7 @@
 {
-  "name": "rapid-reach",
+  "name": "EMS",
   "version": "1.0.0",
-  "description": "Rapid Reach Application",
+  "description": "EMS Application",
   "main": "backend/src/server.js",
   "scripts": {
     "start": "node server",
