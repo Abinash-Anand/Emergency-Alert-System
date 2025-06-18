@@ -113,17 +113,3 @@ npm run dev
 
 ---
 
-## 📢 Important Notes
-
-- Make sure you have a valid **Mapbox Access Token** to render maps.
-- Backend API must be running for authentication and emergency features.
-- Responsive across mobile and desktop.
-
----
-
-## 👨‍💻 Authors
-
-- Yugm Patel
-- Shubham Kothiya
-- Pruthvik Sheth
-- Mansi Patel
