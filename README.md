@@ -102,4 +102,5 @@ Emergencies require speed, clarity, and accessibility. EMS ensures that:
 - Offline capabilities for low network areas.
 - AI-based automatic emergency detection from user voice.
 
----
+## Author
+Abinash Anand - LinkedIn: https://www.linkedin.com/in/abinash-anand-064598203/
