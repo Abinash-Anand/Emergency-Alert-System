@@ -124,3 +124,8 @@ backend/
 - Make sure your backend (`localhost:5000`) and frontend (`localhost:5173`) are both running.
 - Mapbox API key is required for location-related features.
 - MongoDB Atlas or local MongoDB setup is required for database.
+
+## Author
+
+Abinash Anand - LinkedIn: https://www.linkedin.com/in/abinash-anand-064598203/
+
